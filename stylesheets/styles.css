@@ -28,15 +28,6 @@ body {
 }
 
 
-.header {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 2%;
-}
-
 #warning {
     color: rgb(248, 41, 41);
 }
@@ -59,6 +50,3 @@ footer {
     width: 100%;
 }
 
-#footer {
-    padding: 1%;
-}
