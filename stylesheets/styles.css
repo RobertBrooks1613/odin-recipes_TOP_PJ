@@ -7,8 +7,9 @@ body {
     min-width: 300px;
    font-family: "Georgia", serif;
 }
-:link {
+:link , :visited{
     color: #6EACDA;
+    
 }
 
 .border {
