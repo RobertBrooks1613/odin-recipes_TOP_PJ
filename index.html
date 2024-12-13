@@ -4,32 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
-    <style>
-        p {
-            min-width: 300px;
-            max-width: 600px;
-            width: 60%;
-        }
-    </style>
+    <link rel="stylesheet" href="./stylesheets/styles.css">
 </head>
 <body>
-    <h1>Odin Recipes!</h1>
-    <hr />
+    <div class="header border">
+        <h1>Odin Recipes!</h1>
+    </div>
+    
+    <div class="pbox border">
     <h3>Discover Delicious Dishes <br>That the Gods cant resist!</h3>
     <p>
         Embark on a culinary odyssey fit for Olympus! Odin Recipes brings you divine delights that 
         would make even Zeus put down his thunderbolt for a taste. From ambrosia-inspired appetizers to 
         Herculean main courses, our recipes will have you cooking like a kitchen deity.
     </p>
-    <h4>Warning: <br />These dishes may cause mere mortals to experience extreme satisfaction 
+
+    <h4 id="warning">Warning: <br />These dishes may cause mere mortals to experience extreme satisfaction 
         <br>and potential food comas of mythic proportions!</h4>
-    <ol>
-        <li><a href="./recipes_pages/flank_steak.html">Marinated Flank Steak</a></li>
-        <li><a href="./recipes_pages/chicken_parmesan.html">Chicken Parmesan</a></li>
-        <li><a href="./recipes_pages/dutch_ovn_mac_n_cheese.html">Dutch Oven Macaroni and Cheese</a></li>
-    </ol>
+        <div>
+            <ol id="main-links">
+                <li><a href="./recipes_pages/flank_steak.html">Marinated Flank Steak</a></li>
+                <li><a href="./recipes_pages/chicken_parmesan.html">Chicken Parmesan</a></li>
+                <li><a href="./recipes_pages/dutch_ovn_mac_n_cheese.html">Dutch Oven Macaroni and Cheese</a></li>
+            </ol>
+        </div>
+    </div>
     <br />
-    <h4>For more Recipes follow the link below.</h4>
-    <a href="https://www.allrecipes.com/">allrecipes.com</a>
+    <footer class="border">
+        <div id="footer">
+            <h4>For more Recipes follow the link below.</h4>
+            <a href="https://www.allrecipes.com/">allrecipes.com</a>
+        </div>
+    </footer>
 </body>
 </html>
